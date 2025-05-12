@@ -1,5 +1,5 @@
 
-# Progress
+# First steps
 
 Terminal 1:
 ```
