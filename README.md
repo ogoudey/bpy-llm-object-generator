@@ -1,5 +1,5 @@
 
-# First steps
+# Testing Baseline Performance
 
 Terminal 1:
 ```
@@ -11,11 +11,9 @@ Terminal 2:
 python3 interface.py (--np <noun phrase description of geometric object>)
 ```
 
-This gets the Blender-specific Python setup talking with the core virtual environment of this project.
+This gets the local-to-Blender Python talking with the Python environment of this project. It simply attempts to execute generated code until "success".
 
+## Issues
+GPT 4.1's internet snapshot is from some time last year. The internet then did not contain Blender 4.4.3 docs. Either 1. reformulate the problem to an MDP with step-by-step action space, or 2. use a tool to read the docs and plug them into the GPT.
 
-## Note
-The tested performance is of OpenAI's gpt-4.1. (This should be an open-source, local, model)
-
-To do is add the MDP and the RL algorithm (updating the above model with training).
-
+The GPT will create good node trees, but tinkering sometimes needs to be done.
